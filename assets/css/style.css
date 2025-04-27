@@ -1,48 +1,68 @@
+/* Body */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #ffffff;  /* Change to a lighter background */
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #444;  /* Lighter text color for contrast */
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 /* Navbar */
 header nav a {
-    margin: 0 8px;
-    font-weight: 500;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
 
 header nav a:hover {
     text-decoration: underline;
+    color: #3498db;  /* Blue color on hover */
 }
 
 /* Section Titles */
 h2 {
     font-weight: 700;
     margin-bottom: 30px;
+    color: #2c3e50;  /* Darker color for titles */
 }
 
 /* Project Cards */
 .card {
     border: none;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    background-color: #ecf0f1;  /* Lighter card background */
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    background-color: #3498db;  /* Change background color on hover */
+    color: white;
 }
 
 /* Footer */
 footer {
-    background-color: #343a40;
-    color: #eee;
+    background-color: #34495e;  /* Darker footer background */
+    color: #bdc3c7;
     font-size: 14px;
+    padding: 20px 0;
 }
 
 /* Button Hover */
 .btn:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     transition: transform 0.2s ease-in-out;
+    background-color: #2980b9;  /* Button hover color */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
