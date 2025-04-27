@@ -70,13 +70,15 @@ footer {
 }
 
 /* Contact Button */
+/* Contact Button */
 .btn-contact {
     background-color: #ff8c00;
     border-color: #ff8c00;
-    color: white;
+    color: white; /* Permanent text color */
 }
 
 .btn-contact:hover {
     background-color: #f09e40;
     border-color: #f09e40;
+    color: white; /* Maintain text color on hover */
 }
