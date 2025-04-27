@@ -1,10 +1,10 @@
 /* Body */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;  /* Change to a lighter background */
+    background-color: #000000;  /* Black background */
     margin: 0;
     padding: 0;
-    color: #444;  /* Lighter text color for contrast */
+    color: #ffffff;  /* White text */
     animation: fadeIn 1.5s ease-in-out;
 }
 
@@ -12,6 +12,7 @@ body {
 header nav a {
     margin: 0 10px;
     font-weight: 600;
+    color: #ffffff;
     transition: color 0.3s ease;
 }
 
@@ -24,7 +25,7 @@ header nav a:hover {
 h2 {
     font-weight: 700;
     margin-bottom: 30px;
-    color: #2c3e50;  /* Darker color for titles */
+    color: #ecf0f1;  /* Light grey color for section titles */
 }
 
 /* Project Cards */
@@ -32,19 +33,20 @@ h2 {
     border: none;
     border-radius: 12px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-    background-color: #ecf0f1;  /* Lighter card background */
+    background-color: #333;  /* Dark grey card background */
+    color: #ffffff;
 }
 
 .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
-    background-color: #3498db;  /* Change background color on hover */
-    color: white;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    background-color: #3498db;  /* Bright blue color on hover */
+    color: #ffffff;
 }
 
 /* Footer */
 footer {
-    background-color: #34495e;  /* Darker footer background */
+    background-color: #222222;  /* Dark footer background */
     color: #bdc3c7;
     font-size: 14px;
     padding: 20px 0;
