@@ -1,47 +1,46 @@
 /* Body */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;  /* Stylish font */
     background-color: #000000;  /* Black background */
+    color: #f5f5f5;  /* Light grey font color for visibility */
     margin: 0;
     padding: 0;
-    color: #ffffff;  /* White text */
-    animation: fadeIn 1.5s ease-in-out;
 }
 
 /* Navbar */
 header nav a {
     margin: 0 10px;
     font-weight: 600;
-    color: #ffffff;
+    color: #ffffff;  /* White text */
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
 header nav a:hover {
+    color: #3498db;  /* Blue on hover */
     text-decoration: underline;
-    color: #3498db;  /* Blue color on hover */
 }
 
 /* Section Titles */
 h2 {
     font-weight: 700;
     margin-bottom: 30px;
-    color: #ecf0f1;  /* Light grey color for section titles */
+    color: #ecf0f1;  /* Light grey for section titles */
 }
 
 /* Project Cards */
 .card {
     border: none;
     border-radius: 12px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-    background-color: #333;  /* Dark grey card background */
+    background-color: #333333;  /* Dark grey card background */
     color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
-    background-color: #3498db;  /* Bright blue color on hover */
-    color: #ffffff;
+    background-color: #3498db;  /* Bright blue on hover */
 }
 
 /* Footer */
@@ -57,14 +56,4 @@ footer {
     transform: scale(1.1);
     transition: transform 0.2s ease-in-out;
     background-color: #2980b9;  /* Button hover color */
-}
-
-/* Fade-in Animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
