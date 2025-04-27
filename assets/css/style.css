@@ -1,0 +1,48 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar */
+header nav a {
+    margin: 0 8px;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Titles */
+h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Project Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #eee;
+    font-size: 14px;
+}
+
+/* Button Hover */
+.btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
